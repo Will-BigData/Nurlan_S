@@ -112,6 +112,6 @@ class ExpenseManager:
 
         amount = 0
         for row in data:
-            amount += row[3]
+            amount += int(row[2])
 
         print(f"Total expenses is {amount}")
