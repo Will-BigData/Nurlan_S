@@ -4,7 +4,7 @@ import modules as mgr
 
 print("Hello. I am your personal expense manager.")
 while True:
-    if not os.path.exists("expenses.csv"):
+    if not os.path.exists("project0/expenses.csv"):
         print("I did not found your expenses, do you want me to create new file?")
         action=input("Y/N: ")
         if action not in "YNyn" or len(action)!=1:
